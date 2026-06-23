@@ -1,0 +1,37 @@
+/* ギャラリー全体を格子状に並べる設定 */
+.gallery-grid {
+    display: grid;
+    /* 1マスを最低250pxにして、画面幅に合わせて自動で何列にするか決める魔法のコード */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px; /* 画像と画像の間のすき間 */
+    margin-top: 30px;
+}
+
+/* 画像1つ1つの箱の設定 */
+.gallery-item {
+    background-color: #ffffff;
+    border: 2px solid #0099e6; /* テーマカラーの青い枠線 */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 箱の中の画像の設定 */
+.gallery-item img {
+    width: 100%;  /* 箱の横幅にぴったり合わせる */
+    height: auto; /* 縦横比を崩さない */
+    display: block;
+}
+
+/* 画像の下につける説明文字（キャプション） */
+.img-caption {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #0099e6;
+    text-align: center; /* 文字を真ん中に寄せる */
+}
+
+/* 説明文の文字（上部） */
+.gallery-intro {
+    font-size: 18px;
+}
