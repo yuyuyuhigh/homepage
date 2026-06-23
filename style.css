@@ -1,68 +1,23 @@
-/* 画面全体の設定 */
 body {
-    background-color: #f5f5f7; /* 背景を少し高級感のある薄いグレーに */
-    color: #1d1d1f;            /* 文字を真っ黒ではなく、目に優しい濃いグレーに */
-    font-family: sans-serif;   /* すっきりしたゴシック体のフォントにする */
-    line-height: 1.7;          /* 行間を広げて読みやすくする */
-    padding: 30px;             /* 画面の端に少し余白を作る */
+    background-color: #F0FCFF;
+    color: #000000;
+    font-family: Meiryo;
 }
 
-/* 見出しのデザイン */
 h1 {
-    color: #0066cc;            /* 見出しの色をきれいな青に */
-    border-bottom: 2px solid #0066cc; /* 見出しの下に線を引く */
-    padding-bottom: 10px;      /* 線と文字の間の隙間 */
+    color: #18BDFF;
+    border-bottom: 2px solid #18BDFF;
+    padding-bottom: 5px;
 }
 
-/* リンクのデザイン */
 a {
-    color: #ff3366;            /* YouTubeリンクの色をピンク・赤系に */
-    text-decoration: none;     /* リンクの下線を消す */
-    font-weight: bold;         /* 文字を太字にする */
+    color: #0000ff;
+    font-weight: bold;
 }
 
-/* 画像のデザイン */
 img {
-    display: block;            /* 画像を独立したブロックにする */
-    height: auto;              /* 縦横比を保つ */
-    margin-top: 20px;          /* 上の文字との間に余白を作る */
-    border-radius: 8px;        /* 画像の角を少し丸くする */
-}
-
-/* ギャラリー全体を格子状に並べる設定 */
-.gallery-grid {
-    display: grid;
-    /* 1マスを最低250pxにして、画面幅に合わせて自動で何列にするか決める魔法のコード */
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px; /* 画像と画像の間のすき間 */
-    margin-top: 30px;
-}
-
-/* 画像1つ1つの箱の設定 */
-.gallery-item {
-    background-color: #ffffff;
-    border: 2px solid #0099e6; /* テーマカラーの青い枠線 */
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* 箱の中の画像の設定 */
-.gallery-item img {
-    width: 100%;  /* 箱の横幅にぴったり合わせる */
-    height: auto; /* 縦横比を崩さない */
     display: block;
-}
-
-/* 画像の下につける説明文字（キャプション） */
-.img-caption {
-    margin-top: 10px;
-    margin-bottom: 0;
-    font-size: 14px;
-    color: #0099e6;
-    text-align: center; /* 文字を真ん中に寄せる */
-}
-
-/* 説明文の文字（上部） */
-.gallery-intro {
-    font-size: 18px;
+    height: auto;
+    margin-top: 25px;
+    border-radius: 10px;
 }
