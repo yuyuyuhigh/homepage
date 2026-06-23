@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ギャラリー | 手抜きの多いサイト</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+
+    <header>
+        <span class="header-logo">ギャラリー</span>
+    </header>
+
+    <main>
+        <p>写真置き場</p>
+
+        <div class="gallery-grid">
+            <img src="img0001.png">
+        </div>
+    </main>
+
+</body>
+</html>
